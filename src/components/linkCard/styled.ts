@@ -41,10 +41,10 @@ a{
     color:pink;
     }
   @media (max-width:480px){
-    padding:2rem 5.2rem;
+    padding:2rem 5.3rem;
    }
    @media (max-height:420px){
-    padding:6rem .6rem;
+    padding:5.8rem .6rem;
   }
 }
 @media (max-width:480px){
@@ -54,7 +54,7 @@ a{
 }
 @media (max-height:420px){
   width:8rem;
-  height:14rem;
+  height:13.5rem;
   
 }
 
@@ -70,7 +70,7 @@ height:20rem;
 }
 @media (max-height:420px){
   width:16rem;
-  height:14rem;
+  height:13.7rem;
   
 }
 `

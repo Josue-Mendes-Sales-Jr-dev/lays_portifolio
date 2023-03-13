@@ -9,6 +9,7 @@ export const Container=styled.div`
     background-color: var(--bgC);
     padding-top:3rem;
     display:flex;
+
     @media(max-width:1200px){
         flex-direction:column;
     }
@@ -101,7 +102,7 @@ export const Img=styled.img.attrs({
     height:100vh;
     @media (max-width:1200px){
         width:100vw;
-        height:80vh;
+        height:100vh;
     }
     @media (max-width:480px){
         height:50vh;
@@ -130,6 +131,7 @@ export const ImgPerfil=styled.img.attrs({
 })`
    width:55%;
    border-radius:50%;
+   border:none;
    @media (max-width:1200px){
     width:60%;
     margin-left:10rem;
@@ -197,10 +199,18 @@ export const Pag2=styled.section`
       min-height:80vh;
       margin:0px;
       padding-top:4.5rem;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+
       h1{
+        margin-bottom:3rem;
         text-align:center;
         margin:0px;
         color:white;
+        width:20rem;
+        border-bottom:5px solid white;
 
       }
       `
