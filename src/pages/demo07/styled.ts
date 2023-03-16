@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Image from "../../assets/imagens/cardiovascular.jpg"
+import Image01 from "../../assets/imagens/cardHuman.jpg"
+import Image02 from "../../assets/imagens/tecidoAdiposo.jpg"
 
 export const Container=styled.div`
    width:100vw;
@@ -10,15 +12,14 @@ export const Container=styled.div`
    align-items:center;
    flex-direction:column;
    
+   
 `
 export const BackButton=styled.button`
 width:100vw;
-background-color:var(--bgC);
+background-color:white;
 display:flex;
 justify-content:flex-start;
 align-items:center;
-border:none;
-
   a{
    margin:1rem;
    border-radius:5px;
@@ -31,17 +32,6 @@ border:none;
 export const Title=styled.h1`
     color:black;
     height:5rem;
-    margin:3rem;
-    text-align:center;
-   
-`
-export const TitleH2=styled.h1`
-    color:black;
-    height:5rem;
-    margin-top:3rem;
-    font-size:2rem;
-    text-align:left;
-   
 `
 export const Img=styled.img.attrs({
    src:`${Image}`
@@ -52,23 +42,52 @@ export const Img=styled.img.attrs({
 `
 export const TextBox=styled.div`
    padding:4rem;
-   display:flex;
-   columns:300px 3;
+   display:grid;
+   grid-template-columns: auto auto;
    justify-content:center;
    align-items:center;
    width:80vw;
    gap:.5rem;
    overflow:hidden;
+   border:10px solid black;
    margin:2rem;
    min-height:5vh;
   
    
 `
 export const TextBox01=styled.div`
-li{
-   font-size:1.5rem;
-   
-}
 
 `
+export const TextBox02=styled.div`
 
+`
+export const TextBoxPart02=styled.div`
+padding:4rem;
+display:grid;
+grid-template-columns: auto auto;
+grid-template-columns:auto auto;
+justify-content:center;
+align-items:center;
+width:80vw;
+min-height:100vh;
+gap:1rem;
+border:10px solid red;
+`
+export const Img01=styled.img.attrs({
+   src:`${Image01}`
+})`
+
+width:40vw;
+height:45vh;
+border-radius:10px;
+`
+export const T=styled.div`
+
+`
+export const Img02=styled.img.attrs({
+   src:`${Image02}`
+})`
+width:25vw;
+height:80vh;
+border-radius:10px;
+`

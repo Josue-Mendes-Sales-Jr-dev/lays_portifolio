@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import Image01 from "../../assets/imagens/imgHome.png"
 import ImagePerfil from "../../assets/imagens/imgPerfil.png"
-
 
 export const Container=styled.div`
     width:100vw;
@@ -208,9 +207,9 @@ export const Pag2=styled.section`
         margin-bottom:3rem;
         text-align:center;
         margin:0px;
-        color:white;
+        color:blue;
         width:20rem;
-        border-bottom:5px solid white;
+        border-bottom:5px solid blue;
 
       }
       `
