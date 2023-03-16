@@ -5,14 +5,7 @@ import {TbArrowBackUp} from "react-icons/tb"
 
 
 export const Introduction=()=>{
-    const handleLoad=()=>{
-        if(window.scrollY > 0){
-         window.scrollTo(0,0)
-        }
-    }
-    useEffect(()=>{
-     handleLoad();
-    },[])
+    
      return(
           <>
          <C.Container >
@@ -61,11 +54,9 @@ export const Introduction=()=>{
                     <li>Princípio da estratigrafia: o corpo é formado por camadas, como a “cebola”.</li>
                     <li>Princípio da segmentação: o órgão é formado por vários segmentos funcionalmente independentes.</li>
                  </ul>
-
+                 <C.ImgMap/>
                </C.TextBox01>
-               <form action="#">
-                  <input type="file" name="map" id="map" />
-               </form>
+            
                
                </C.TextBox>
               

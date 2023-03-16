@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "../../assets/imagens/cardiovascular.jpg"
+import ImageMap from "../../assets/imagens/tema1.png"
 
 export const Container=styled.div`
    width:100vw;
@@ -9,13 +10,15 @@ export const Container=styled.div`
    justify-content:center;
    align-items:center;
    flex-direction:column;
-   
+   @media (max-width:420px){
+      width:90vw;
+   } 
 `
 export const BackButton=styled.button`
 width:100vw;
 background-color:var(--bgC);
 display:flex;
-justify-content:flex-start;
+justify-content: flex-start;
 align-items:center;
 border:none;
 
@@ -26,21 +29,39 @@ border:none;
    font-size:2rem;
    color:var(--btnColor);
    background-color:var(--btnBg);
+   :hover{
+      color:blue;
+   }
   }
+
+  @media (max-width:420px){
+       
+      a{ padding:1rem;
+         font-size:1.4rem;
+      }
+  } 
 `
 export const Title=styled.h1`
     color:black;
     height:5rem;
     margin:3rem;
     text-align:center;
+    @media (max-width:420px){
+      font-size:2rem;
+      margin-bottom:3rem;
+    } 
    
 `
-export const TitleH2=styled.h1`
+export const TitleH2=styled.h2`
     color:black;
-    height:5rem;
     margin-top:3rem;
     font-size:2rem;
     text-align:left;
+    @media (max-width:420px){
+      font-size:1.6rem;
+      margin-bottom:3rem;
+    } 
+    
    
 `
 export const Img=styled.img.attrs({
@@ -49,11 +70,13 @@ export const Img=styled.img.attrs({
    width:80vw;
    height:50vh;
    border-radius:10px;
+   @media (max-width:420px){
+      width:80vw;
+    } 
 `
 export const TextBox=styled.div`
    padding:4rem;
    display:flex;
-   columns:300px 3;
    justify-content:center;
    align-items:center;
    width:80vw;
@@ -61,14 +84,33 @@ export const TextBox=styled.div`
    overflow:hidden;
    margin:2rem;
    min-height:5vh;
-  
-   
+   @media (max-width:420px){
+      padding:1rem
+      width:80vw;
+    } 
 `
 export const TextBox01=styled.div`
+
 li{
+   margin-bottom:.5rem;
    font-size:1.5rem;
+   @media (max-width:420px){
+      font-size:1.2rem;
+   } 
    
 }
 
 `
+export const ImgMap=styled.img.attrs({
+   src:`${ImageMap}`
+})`
+   width:80vw;
+   height:80vh;
+   border-radius:10px;
+   border:none;
 
+   @media (max-width:420px){
+      width:80vw;
+      height:50vh;
+    } 
+`
