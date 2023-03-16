@@ -6,6 +6,7 @@ export const LinkCard =({theLink,Title}:any)=>{
         <C.Container>
             <C.Img/>
             <C.Text>
+                <C.Title>Introdução às ciências morfológicas</C.Title>
                 <Link to={theLink}>{Title}</Link>
             </C.Text>
         </C.Container>

@@ -27,13 +27,13 @@ export const Home=()=>{
           <C.Pag1 id="temas">
             <h1>Temas</h1>
              <C.Box1>
-               <LinkCard theLink={"/introducao"} Title={"Demo01"}/>
-               <LinkCard theLink={"/demo02"} Title={"Demo02"}/>
-               <LinkCard theLink={"/demo03"} Title={"Demo03"}/>
-               <LinkCard theLink={"/demo04"} Title={"Demo04"}/>
-               <LinkCard theLink={"/demo05"} Title={"Demo05"}/>
-               <LinkCard theLink={"/demo06"} Title={"Demo06"}/>
-               <LinkCard  theLink={"/demo07"} Title={"Demo07"}/>
+               <LinkCard theLink={"/introducao"} Title={"Tema 1"}/>
+               <LinkCard theLink={"/demo02"} Title={"Tema 2"}/>
+               <LinkCard theLink={"/demo03"} Title={"Tema 3"}/>
+               <LinkCard theLink={"/demo04"} Title={"Tema 4"}/>
+               <LinkCard theLink={"/demo05"} Title={"Tema 5"}/>
+               <LinkCard theLink={"/demo06"} Title={"Tema 6"}/>
+               <LinkCard  theLink={"/demo07"} Title={"Tema 7"}/>
              </C.Box1>
           </C.Pag1>
           <C.Pag2 id="flashCards">

@@ -5,7 +5,14 @@ import {TbArrowBackUp} from "react-icons/tb"
 
 
 export const Introduction=()=>{
-    
+    const handleLoad=()=>{
+        if(window.scrollY > 0){
+         window.scrollTo(0,0)
+        }
+    }
+    useEffect(()=>{
+     handleLoad();
+    },[])
      return(
           <>
          <C.Container >
