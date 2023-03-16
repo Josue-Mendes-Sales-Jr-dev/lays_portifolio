@@ -30,7 +30,7 @@ export const Home=()=>{
                <LinkCard theLink={"/introducao"} Title={"Introdução às ciências morfológicas"} TitleBtn={"tema 1"}/>
                <LinkCard theLink={"/demo02"} Title={"Introdução à célula"} TitleBtn={"tema 2"}/>
                <LinkCard theLink={"/demo03"} Title={"Ciclo celular e tecido epitelial"} TitleBtn={"tema 3"}/>
-               <LinkCard theLink={"/demo04"} Title={"Tema 4"} TitleBtn={"tema 4"}/>
+               <LinkCard theLink={"/demo04"} Title={"Tecido conjuntivo e adiposo"} TitleBtn={"tema 4"}/>
                <LinkCard theLink={"/demo05"} Title={"Tema 5"} TitleBtn={"tema 5"}/>
                <LinkCard theLink={"/demo06"} Title={"Tema 6"} TitleBtn={"tema 6"}/>
                <LinkCard  theLink={"/demo07"} Title={"Tema 7"} TitleBtn={"tema 7"}/>

@@ -250,7 +250,6 @@ Retículo endoplasmático rugoso: além da secreção das proteínas, o rer part
                    REFERÊNCIA:
                    </C.TitleH2>
                    <p className="text-center">Junqueira, L. C., & Carneiro, J. (2004). Histologia Básica (10o). Guanabara Koogan.</p>
-                   <p className="text-center"> Introdução à bioquímica - Valter T. Motta</p>
                </C.TextBox01>
             
                
