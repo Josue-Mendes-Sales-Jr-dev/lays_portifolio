@@ -62,8 +62,24 @@ export const Introduction=()=>{
                     <li>Princípio da segmentação: o órgão é formado por vários segmentos funcionalmente independentes.</li>
                  </ul>
                  <C.ImgMap/>
+                 <C.TitleH2>
+                   REFERÊNCIA:
+                   </C.TitleH2>
+                   <p className="text-center">
+                   Junqueira, L. C., & Carneiro, J. (2004). Histologia Básica (10o). Guanabara Koogan.
+
+                  </p>
+                   <p className="text-center">
+                   Dangelo, J. G., & Fattini, C. A. (2011). Anatomia humana sistêmica e segmentar (3rd ed.). Atheneu.
+
+                  </p>
+                   <p className="text-center">
+                   Youtube: canal anatomofuncional; aula: Introdução às ciências morfofuncionais
+
+
+                  </p>
                </C.TextBox01>
-            
+                
                
                </C.TextBox>
               

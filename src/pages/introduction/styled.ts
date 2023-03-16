@@ -13,6 +13,9 @@ export const Container=styled.div`
    @media (max-width:420px){
       width:90vw;
    } 
+   @media (max-height:480px){
+      width:90vw;
+   } 
 `
 export const BackButton=styled.button`
 width:100vw;
@@ -40,6 +43,12 @@ border:none;
          font-size:1.4rem;
       }
   } 
+  @media (max-height:480px){
+       
+      a{ padding:.5rem;
+         font-size:1.4rem;
+      }
+  } 
 `
 export const Title=styled.h1`
     color:black;
@@ -47,6 +56,10 @@ export const Title=styled.h1`
     margin:3rem;
     text-align:center;
     @media (max-width:420px){
+      font-size:2rem;
+      margin-bottom:3rem;
+    } 
+    @media (max-height:480px){
       font-size:2rem;
       margin-bottom:3rem;
     } 
@@ -61,6 +74,10 @@ export const TitleH2=styled.h2`
       font-size:1.6rem;
       margin-bottom:3rem;
     } 
+    @media (max-height:480px){
+      font-size:1.6rem;
+      margin-bottom:3rem;
+    } 
     
    
 `
@@ -72,6 +89,9 @@ export const Img=styled.img.attrs({
    border-radius:10px;
    @media (max-width:420px){
       width:80vw;
+    } 
+   @media (max-height:480px){
+      height:70vh;
     } 
 `
 export const TextBox=styled.div`
@@ -88,14 +108,25 @@ export const TextBox=styled.div`
       padding:1rem
       width:80vw;
     } 
+   @media (max-height:480px){
+      padding:1rem
+      width:80vw;
+    } 
 `
 export const TextBox01=styled.div`
+
+p{
+
+}
 
 li{
    margin-bottom:.5rem;
    font-size:1.5rem;
    @media (max-width:420px){
       font-size:1.2rem;
+   } 
+   @media (max-height:480px){
+      font-size:1rem;
    } 
    
 }
