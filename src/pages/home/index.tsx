@@ -2,15 +2,12 @@ import Carousell from "../../components/carousel"
 import { LinkCard } from "../../components/linkCard"
 import { Navbar1 } from "../../components/navbar"
 import *as C from "./styled"
-
+import { FixedTop } from "../../hooks/fixedTop"
 
 export const Home=()=>{
-  
-  
- 
+  FixedTop()
     return(
-        <>
-          
+        <>       
           <C.Container id="home">
           <Navbar1/>
           <C.Box>

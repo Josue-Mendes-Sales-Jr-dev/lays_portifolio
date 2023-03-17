@@ -24,7 +24,7 @@ function Carousell() {
           alt="Second slide"
         />
         <Carousel.Caption>
-        <Link className='linkCarousel' to="/tema03">tema 3</Link>
+        <Link className='linkCarousel' to="/tema04">tema 4</Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

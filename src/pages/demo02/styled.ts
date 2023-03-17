@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../assets/imagens/img01.png"
+import Image from "../../assets/imagens/cell.jpg"
 import ImageMap from "../../assets/imagens/tema1.png"
 
 
