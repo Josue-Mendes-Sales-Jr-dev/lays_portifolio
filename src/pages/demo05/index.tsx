@@ -13,7 +13,7 @@ export const Demo05=()=>{
            </C.BackButton>
            
            <C.Title>
-           Morfologia do aparelho locmotor          
+           Morfologia do aparelho locomotor          
            </C.Title>
            <C.Img />
             <C.TextBox>  
