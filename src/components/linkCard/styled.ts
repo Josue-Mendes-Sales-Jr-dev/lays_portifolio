@@ -31,7 +31,7 @@ justify-content:center;
 flex-direction:column;
 a{
   color:White
-  background-color:blue;
+  background-color:var(--btnCard);
   padding:1rem 9.5rem;
   border:3px solid gray;
   border-radius:2px;
@@ -80,9 +80,7 @@ export const Title=styled.h2`
       height:6rem;
     }
 `
-export const Img=styled.img.attrs({
-    src:`${Image}`
-})`
+export const Img=styled.img`
 width:23.5rem;
 height:18rem;
 @media (max-width:480px){
