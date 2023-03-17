@@ -1,6 +1,6 @@
 import './styled1.css'
 import * as C from "./styled"
-import {Container, Navbar,Nav} from "react-bootstrap"
+import {Container, Navbar,Nav, Collapse} from "react-bootstrap"
 
 export const Navbar1=()=>{
 
@@ -8,12 +8,16 @@ export const Navbar1=()=>{
     let ation1=document.getElementById("add")
     let nav=document.getElementById("basic-navbar-nav")
     
-    if(ation1?.classList.contains("navbar-toggler  collapse")){
+    if(ation1?.classList.contains("navbar-toggler")){
       nav?.classList.remove("show")  
-      nav?.classList.remove("in")
+
+    } else{
+      nav?.classList.add("show")  
     }
-    
-    
+
+   if(ation1?.classList.contains("navbar-toggler collapse")){
+       nav?.classList.remove("in")
+   }
   }
     return (
         <Navbar className="nav" bg="dark" fixed="top" variant="dark" expand="lg">
