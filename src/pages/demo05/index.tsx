@@ -13,7 +13,7 @@ export const Demo05=()=>{
            </C.BackButton>
            
            <C.Title>
-           Ciclo celular e tecido epitelial          
+           Morfologia do aparelho locmotor          
            </C.Title>
            <C.Img />
             <C.TextBox>  

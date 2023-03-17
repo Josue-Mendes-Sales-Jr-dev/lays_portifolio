@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../assets/imagens/cardiovascular.jpg"
+import Image from "../../assets/imagens/Loc.jpg"
 import ImagePe from "../../assets/imagens/pe.png"
 import ImageArt from "../../assets/imagens/articulacoes.png"
 import ImageHunt from "../../assets/imagens/palmar.png"
