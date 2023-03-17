@@ -14,6 +14,9 @@ export const Container=styled.div`
    @media (max-width:420px){
       width:90vw;
    } 
+   @media (max-height:420px){
+      width:90vw;
+   } 
 `
 export const BackButton=styled.button`
   width:100vw;
@@ -40,31 +43,31 @@ export const BackButton=styled.button`
   @media (max-width:420px){
        
       a{ padding:1rem;
-         font-size:1.4rem;
+         font-size:1rem;
       }
   } 
   @media (max-height:480px){
-       
-      a{ padding:.5rem;
-         font-size:1.4rem;
+      a{ 
+         padding:.5rem;
+         font-size:1rem;
       }
   } 
 `
 export const Title=styled.h1`
    
-    color:black;
-    height:3rem;
-    margin:3rem;
-    text-align:center;
-    @media (max-width:420px){
-      font-size:2rem;
-      margin-bottom:3rem;
-    } 
-    @media (max-height:480px){
-      font-size:2rem;
-      margin-bottom:3rem;
-    } 
-   
+color:black;
+height:3rem;
+margin:3rem;
+text-align:center;
+@media (max-width:420px){
+  font-size:2rem;
+  margin-bottom:7rem;
+} 
+@media (max-height:480px){
+  font-size:2rem;
+  margin-bottom:3rem;
+} 
+
 `
 export const TitleH2=styled.h2`
     color:black;
@@ -72,10 +75,12 @@ export const TitleH2=styled.h2`
     font-size:2rem;
     text-align:left;
     @media (max-width:420px){
-      font-size:1.6rem;
-      margin-bottom:3rem;
+      font-size:1.4rem;
+      margin-bottom:2rem;
+      width:18rem;
+      
     } 
-    @media (max-height:420px){
+    @media (max-height:480px){
       font-size:1.6rem;
       margin-top:0rem;
     } 
@@ -108,8 +113,9 @@ export const TextBox=styled.div`
    margin:2rem;
    min-height:5vh;
    @media (max-width:420px){
-      padding:1rem
+      padding:.5rem
       width:80vw;
+    
     } 
    @media (max-height:480px){
       padding:1rem
@@ -117,23 +123,34 @@ export const TextBox=styled.div`
     } 
 `
 export const TextBox01=styled.div`
+   padding:4rem;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
 p{
    margin-bottom:.5rem;
-   font-size:1.5rem;
+   font-size:.8rem;
    @media (max-width:420px){
       font-size:1rem;
+      width:18rem;
    } 
    @media (max-height:480px){
       font-size:1rem;
    } 
    
 }
-
+.h4Chata{
+   @media (max-width:420px){
+      font-size:1.4rem;
+      width:18rem;
+   } 
+}
 li{
    margin-bottom:.5rem;
    font-size:1.5rem;
    @media (max-width:420px){
-      font-size:1.05rem;
+      font-size:1rem;
    } 
    @media (max-height:480px){
       font-size:1.05rem;

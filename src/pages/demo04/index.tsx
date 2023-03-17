@@ -5,7 +5,7 @@ import {TbArrowBackUp} from "react-icons/tb"
 import Table1 from "../../components/table"
 
 export const Demo04=()=>{
-    FixedTop()
+  FixedTop()
      return(
           <>
          <C.Container >
@@ -16,7 +16,9 @@ export const Demo04=()=>{
            <C.Title>
            TECIDO CONJUNTIVO E ADIPOSO
            </C.Title>
+
            <C.Img />
+
            <C.TextBox>
                <C.TextBox01>
                    <p>
@@ -48,7 +50,7 @@ O tecido hematopoiético é encontrado na medula óssea e é responsável pela p
 
 O tecido adiposo é um tecido conjuntivo especializado que armazena energia na forma de triglicerídeos. O tecido adiposo branco é o tipo mais comum e é encontrado em várias partes do corpo. O tecido adiposo marrom é encontrado principalmente em recém-nascidos e é importante na regulação da temperatura corporal.
                </p>
-               <h4>
+               <h4 className="h4Chata">
                A matriz extracelular (MEC) do tecido adiposo é composta por diferentes elementos, incluindo:
                </h4>
               <ul>
@@ -68,12 +70,12 @@ O tecido adiposo é um tecido conjuntivo especializado que armazena energia na f
                   é a parte do tecido conjuntivo que fornece suporte estrutural para as células do parênquima. Ele é composto principalmente por fibras de colágeno e elastina, que dão resistência e elasticidade ao tecido, e pela matriz extracelular, que preenche os espaços entre as células. O estroma também pode conter outros tipos de células, como os mastócitos, que liberam substâncias importantes para o processo inflamatório, e os leucócitos, que ajudam na defesa do organismo.                  
                   </li>
               </ul>
-              <h4>A substância fundamental no tecido conjuntivo:</h4>
+              <h4 className="h4Chata">A substância fundamental no tecido conjuntivo:</h4>
               <ul> 
                   <li>
                   é composta principalmente por glicosaminoglicanos (GAGs) e proteoglicanos. Os GAGs são longas compostas por uma repetição de dissacarídeos, que incluem ácido hialurônico, condroitina sulfato, dermatam sulfato, heparina e heparan sulfato. Os proteoglicanos consistem em uma molécula central de proteína com várias cadeias laterais de GAGs, que formam uma estrutura em forma de escova. A substância fundamental também contém glicoproteínas, água e eletrólitos. Essa matriz extracelular amorfa e gelatinosa preenche os espaços entre as células do tecido conjuntivo e é responsável por suas propriedades físicas, como a capacidade de resistir à resistência.                  </li>
               </ul>
-              <h4>Existem vários tipos de células que compõem o tecido conjuntivo. Algumas das principais células do tecido conjuntivo incluem:</h4>
+              <h4 className="h4Chata">Existem vários tipos de células que compõem o tecido conjuntivo. Algumas das principais células do tecido conjuntivo incluem:</h4>
               <ul>
                 <li>
                 Fibroblastos: São células responsáveis pela produção de fibras e da matriz extracelular do tecido conjuntivo.
@@ -233,7 +235,6 @@ O tecido adiposo é um tecido conjuntivo especializado que armazena energia na f
             <C.TitleH2>Referência</C.TitleH2>
             <p>Junqueira, L. C., & Carneiro, J. (2004). Histologia Básica (10o). Guanabara Koogan.</p>
             </C.TextBox01>.
-
             </C.TextBox>
             
          </C.Container>

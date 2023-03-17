@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Image from "../../assets/imagens/cardiovascular.jpg"
-import ImageMap from "../../assets/imagens/tema1.png"
+import ImagePe from "../../assets/imagens/pe.png"
+import ImageArt from "../../assets/imagens/articulacoes.png"
+import ImageHunt from "../../assets/imagens/palmar.png"
 
 
 export const Container=styled.div`
@@ -54,8 +56,10 @@ export const Title=styled.h1`
    
     color:black;
     height:3rem;
-    margin-top:3rem;
+    margin-top:5rem;
+    margin-bottom:5rem;
     text-align:center;
+    width:80vw;
     @media (max-width:420px){
       font-size:2rem;
       margin-bottom:3rem;
@@ -71,12 +75,16 @@ export const TitleH2=styled.h2`
     margin-top:3rem;
     font-size:2rem;
     text-align:left;
+    width:80vw;
     @media (max-width:420px){
       font-size:1.6rem;
+      width:18rem;
       margin-bottom:3rem;
+      text-align:left;
     } 
     @media (max-height:420px){
       font-size:1.6rem;
+      width:80vw;
       margin-top:0rem;
     } 
     
@@ -101,6 +109,7 @@ export const TextBox=styled.div`
    display:flex;
    justify-content:center;
    align-items:center;
+   flex-direction:column;
    width:80vw;
    gap:.5rem;
    overflow:hidden;
@@ -118,9 +127,9 @@ export const TextBox=styled.div`
 export const TextBox01=styled.div`
 p{
    margin-bottom:.5rem;
-   font-size:1.5rem;
+   font-size:1.6rem;
    @media (max-width:420px){
-      font-size:1rem;
+      font-size:1.2rem;
    } 
    @media (max-height:480px){
       font-size:1rem;
@@ -130,7 +139,7 @@ p{
 
 li{
    margin-bottom:.5rem;
-   font-size:1.5rem;
+   font-size:1.6rem;
    @media (max-width:420px){
       font-size:1.05rem;
    } 
@@ -139,10 +148,39 @@ li{
    } 
    
 }
+.c{
+   text-align:center;
+}
 
 `
-export const ImgMap=styled.img.attrs({
-   src:`${ImageMap}`
+export const ImgMapArt=styled.img.attrs({
+   src:`${ImageArt}`
+})`
+   width:80vw;
+   height:80vh;
+   border-radius:10px;
+   border:none;
+
+   @media (max-width:420px){
+      width:80vw;
+      height:50vh;
+    } 
+`
+export const ImgMapHunt=styled.img.attrs({
+   src:`${ImageHunt}`
+})`
+   width:80vw;
+   height:80vh;
+   border-radius:10px;
+   border:none;
+
+   @media (max-width:420px){
+      width:80vw;
+      height:50vh;
+    } 
+`
+export const ImgMapPe=styled.img.attrs({
+   src:`${ImagePe}`
 })`
    width:80vw;
    height:80vh;
