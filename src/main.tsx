@@ -12,7 +12,6 @@ import { Demo04 } from './pages/demo04';
 import { Demo05 } from './pages/demo05';
 import { Demo06 } from './pages/demo06';
 import { Demo07 } from './pages/demo07';
-import { FlashCards } from './pages/flashCards';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -21,13 +20,12 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route path='/' element={<App/>}>
           <Route index element={<Home/>}/>
           <Route path='/introducao' element={<Introduction/>}/>
-          <Route path='/demo02' element={<Demo02/>}/>
-          <Route path='/demo03' element={<Demo03/>}/>
-          <Route path='/demo04' element={<Demo04/>}/>
-          <Route path='/demo05' element={<Demo05/>}/>
-          <Route path='/demo06' element={<Demo06/>}/>
-          <Route path='/demo07' element={<Demo07/>}/>
-          <Route path='/flashCards' element={<FlashCards/>}/>
+          <Route path='/tema02' element={<Demo02/>}/>
+          <Route path='/tema03' element={<Demo03/>}/>
+          <Route path='/tema04' element={<Demo04/>}/>
+          <Route path='/tema05' element={<Demo05/>}/>
+          <Route path='/tema06' element={<Demo06/>}/>
+          <Route path='/tema07' element={<Demo07/>}/>
         </Route>
     </Routes>
     </BrowserRouter>

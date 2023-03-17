@@ -28,16 +28,16 @@ export const Home=()=>{
             <h1>Temas</h1>
              <C.Box1>
                <LinkCard theLink={"/introducao"} Title={"Introdução às ciências morfológicas"} TitleBtn={"tema 1"}/>
-               <LinkCard theLink={"/demo02"} Title={"Introdução à célula"} TitleBtn={"tema 2"}/>
-               <LinkCard theLink={"/demo03"} Title={"Ciclo celular e tecido epitelial"} TitleBtn={"tema 3"}/>
-               <LinkCard theLink={"/demo04"} Title={"Tecido conjuntivo e adiposo"} TitleBtn={"tema 4"}/>
-               <LinkCard theLink={"/demo05"} Title={"Morfologia do aparelho locomotor"} TitleBtn={"tema 5"}/>
-               <LinkCard theLink={"/demo06"} Title={"Aparelho circulatório"} TitleBtn={"tema 6"}/>
-               <LinkCard  theLink={"/demo07"} Title={"Tema 7"} TitleBtn={"tema 7"}/>
+               <LinkCard theLink={"/Tema02"} Title={"Introdução à célula"} TitleBtn={"tema 2"}/>
+               <LinkCard theLink={"/Tema03"} Title={"Ciclo celular e tecido epitelial"} TitleBtn={"tema 3"}/>
+               <LinkCard theLink={"/Tema04"} Title={"Tecido conjuntivo e adiposo"} TitleBtn={"tema 4"}/>
+               <LinkCard theLink={"/Tema05"} Title={"Morfologia do aparelho locomotor"} TitleBtn={"tema 5"}/>
+               <LinkCard theLink={"/Tema06"} Title={"Aparelho circulatório"} TitleBtn={"tema 6"}/>
+               <LinkCard  theLink={"/Tema07"} Title={"Sistema nervoso"} TitleBtn={"tema 7"}/>
              </C.Box1>
           </C.Pag1>
           <C.Pag2 id="flashCards">
-            <h1>flash Cards</h1>
+            <h1>Slides</h1>
             <C.BoxP2>
                <Carousell/>
             </C.BoxP2>

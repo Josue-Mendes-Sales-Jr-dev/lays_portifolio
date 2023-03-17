@@ -10,11 +10,11 @@ function Carousell() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src={Image1}
+          src={Image3}
           alt="First slide"
         />
         <Carousel.Caption>
-          <Link className='linkCarousel' to="/flashCards">Flashcards</Link>
+          <Link className='linkCarousel' to="/introducao">Tema 1</Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
@@ -24,17 +24,17 @@ function Carousell() {
           alt="Second slide"
         />
         <Carousel.Caption>
-        <Link className='linkCarousel' to="/flashCards">Flashcards</Link>
+        <Link className='linkCarousel' to="/tema03">tema 3</Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Image3}
+          src={Image1}
           alt="Third slide"
         />
         <Carousel.Caption>
-          <Link className='linkCarousel' to="/flashCards">FlashcArds</Link>
+          <Link className='linkCarousel' to="/tema06">Tema 6</Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../assets/imagens/cardiovascular.jpg"
+import Image from "../../assets/imagens/img01.png"
 import ImageMap from "../../assets/imagens/tema1.png"
 
 
@@ -40,7 +40,7 @@ export const BackButton=styled.button`
   @media (max-width:420px){
        
       a{ padding:1rem;
-         font-size:1.4rem;
+         font-size:1.5rem;
       }
   } 
   @media (max-height:480px){

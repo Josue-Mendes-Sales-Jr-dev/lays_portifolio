@@ -42,7 +42,7 @@ export const BackButton=styled.button`
   @media (max-width:420px){
        
       a{ padding:1rem;
-         font-size:1.4rem;
+         font-size:1.5rem;
       }
   } 
   @media (max-height:480px){

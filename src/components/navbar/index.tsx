@@ -11,7 +11,7 @@ export const Navbar1=()=>{
               <Nav className="meAuto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#temas">Temas</Nav.Link>
-                <Nav.Link href="#flashCards">FlashCards</Nav.Link>
+                <Nav.Link href="#flashCards">Slides</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

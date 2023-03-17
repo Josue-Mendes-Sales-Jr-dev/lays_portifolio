@@ -2,21 +2,22 @@ import * as C from "./styled"
 import { FixedTop } from "../../hooks/fixedTop"
 import {Link} from "react-router-dom"
 import {TbArrowBackUp} from "react-icons/tb"
-import Table1 from "../../components/table"
 
 
 export const Demo06=()=>{
+    FixedTop()
     return(
         <> 
         <C.Container>
            <C.BackButton>
            <Link to="/"><TbArrowBackUp/>Voltar</Link>
            </C.BackButton>
+           
            <C.TextBox>
-            
             <C.Title>
             APARELHO CIRCULATÓRIO
             </C.Title>
+            <C.Img/>
             <C.TextBox01>
              <p>
              O sistema cardiovascular leva nutrientes, gases, água e sais minerais; recolhe excretas celulares, secreções endócrinas, hormônios; direciona aos órgãos excretores. Moléculas grandes, liberadas pela célula para voltar à corrente sanguínea, que não conseguem ser reabsorvidas pelos vasos sanguíneos são absorvidas pelos vasos linfáticos, que ficam entre os capilares sanguíneos. Os vasos linfáticos passam por diversos linfonodos, que filtram e purificam - caso haja algum microorganismo - a linfa. Os vasos formam troncos linfáticos, que conduzem a linfa de volta à circulação sanguínea.

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../assets/imagens/cardiovascular.jpg"
+import Image from "../../assets/imagens/cardTecidoEpitelial.jpg"
 import ImageMapA from "../../assets/imagens/tema3A.png"
 import ImageMapB from "../../assets/imagens/tema3B.png"
 
@@ -46,7 +46,7 @@ border:none;
    }
   @media (max-height:480px){
        
-      a{ padding:.8rem;
+      a{ padding:.5rem;
          font-size:1.4rem;
       }
   } 

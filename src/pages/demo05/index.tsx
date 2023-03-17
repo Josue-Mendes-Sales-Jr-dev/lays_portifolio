@@ -36,7 +36,7 @@ export const Demo05=()=>{
                 </li>
               </ul>
               <C.TitleH2>
-              Tipos de substâncias ósseas:
+              Tipos de substâncias óssea:
               </C.TitleH2>
               <ul>
                 <li>
@@ -47,7 +47,7 @@ export const Demo05=()=>{
                 </li>
               </ul>
               <C.TitleH2>
-              Medula ósseas:
+              Medula óssea:
               </C.TitleH2>
               <ul>
                 <li>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../assets/imagens/cardiovascular.jpg"
+import Image from "../../assets/imagens/cardHuman.jpg"
 import ImageMap from "../../assets/imagens/tema1.png"
 
 export const Container=styled.div`

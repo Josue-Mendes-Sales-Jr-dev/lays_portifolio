@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../assets/imagens/cardiovascular.jpg"
+import Image from "../../assets/imagens/tecidoAdiposo.jpg"
 import ImageMap from "../../assets/imagens/cel_hematopoetica.jpg"
 
 
@@ -43,13 +43,13 @@ export const BackButton=styled.button`
   @media (max-width:420px){
        
       a{ padding:1rem;
-         font-size:1rem;
+         font-size:1.5rem;;
       }
   } 
   @media (max-height:480px){
       a{ 
          padding:.5rem;
-         font-size:1rem;
+         font-size:1.4rem;
       }
   } 
 `

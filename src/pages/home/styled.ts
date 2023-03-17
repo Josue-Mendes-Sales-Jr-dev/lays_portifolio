@@ -207,9 +207,9 @@ export const Pag2=styled.section`
         margin-bottom:3rem;
         text-align:center;
         margin:0px;
-        color:blue;
-        width:20rem;
-        border-bottom:5px solid blue;
+        color:var(--cor);
+        width:10rem;
+        border-bottom:5px solid var(--cor);
 
       }
       `

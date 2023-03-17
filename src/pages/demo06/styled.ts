@@ -19,6 +19,22 @@ export const Container=styled.div`
       width:90vw;
    }
 `
+export const Img=styled.img.attrs({
+   src:`${Image}`
+})`
+   width:80vw;
+   height:50vh;
+   border-radius:10px;
+   @media (max-width:480px){
+      width:80vw;
+      margin:3rem;
+    } 
+   @media (max-height:480px){
+      height:60vh;
+      margin-top:0rem;
+      margin-bottom:2rem;
+    } 
+`
 export const BackButton=styled.button`
   width:100vw;
    background-color:var(--bgC);
@@ -44,13 +60,13 @@ export const BackButton=styled.button`
   @media (max-width:420px){
        
       a{ padding:1rem;
-         font-size:1rem;
+         font-size:1.5rem;
       }
   } 
   @media (max-height:480px){
       a{ 
          padding:.5rem;
-         font-size:1rem;
+         font-size:1.4rem;
       }
   } 
 `
@@ -67,10 +83,10 @@ export const Title=styled.h1`
 
     } 
     @media (max-height:480px){
-      font-size:2.2rem;
+      font-size:2rem;
       height:5rem;
       margin-top:-1rem;
-      margin-bottom:3rem;
+      margin-bottom:2rem;
     }
 `
 export const TitleH2=styled.h2`
@@ -91,19 +107,7 @@ export const TitleH2=styled.h2`
     
    
 `
-export const Img=styled.img.attrs({
-   src:`${Image}`
-})`
-   width:80vw;
-   height:50vh;
-   border-radius:10px;
-   @media (max-width:420px){
-      width:80vw;
-    } 
-    @media (max-height:480px){
-      
-    }
-`
+
 export const TextBox=styled.div`
    padding:4rem;
    display:flex;
